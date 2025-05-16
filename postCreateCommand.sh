@@ -1,1 +1,2 @@
-pip install -U radian
+apt install pipx
+pipx install -U radian
