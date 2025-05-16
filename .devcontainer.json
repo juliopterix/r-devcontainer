@@ -1,7 +1,12 @@
 {
     "image":"ghcr.io/rocker-org/devcontainer/r-ver:4",
     "features": {
-		"ghcr.io/rocker-org/devcontainer-features/pandoc:1": {}
+		"ghcr.io/rocker-org/devcontainer-features/pandoc:1": {},
+        "ghcr.io/rocker-org/devcontainer-features/r-apt:0": {
+            "installREnv": true,
+            "installRadian": true,
+            "installVscDebugger": true
+        }
 	},
     "customizations": {
 		// Configure properties specific to VS Code.
@@ -9,11 +14,8 @@
 			"settings": {},
 			"extensions": [
 				"streetsidesoftware.code-spell-checker",
-				"ms-python.black-formatter",
-				"charliermarsh.ruff",
-				"REditorSupport.r"
+				"charliermarsh.ruff"
 			]
 		}
-	},
-    "postCreateCommand": "./postCreateCommand.sh"
+	}
 }
