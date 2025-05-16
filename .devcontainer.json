@@ -1,1 +1,19 @@
-{"image":"mcr.microsoft.com/devcontainers/base:ubuntu"}
+{
+    "image":"ghcr.io/rocker-org/devcontainer/r-ver:4",
+    "features": {
+		"ghcr.io/rocker-org/devcontainer-features/pandoc:1": {}
+	},
+    "customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"streetsidesoftware.code-spell-checker",
+				"ms-python.black-formatter",
+				"charliermarsh.ruff",
+				"REditorSupport.r"
+			]
+		}
+	},
+    "postCreateCommand": "./.devcontainer/postCreateCommand.sh"
+}
