@@ -15,5 +15,5 @@
 			]
 		}
 	},
-    "postCreateCommand": "./.devcontainer/postCreateCommand.sh"
+    "postCreateCommand": "postCreateCommand.sh"
 }
