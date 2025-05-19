@@ -2,7 +2,7 @@
     "image":"ghcr.io/rocker-org/devcontainer/r-ver:4.5",
     "features": {
 		"ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
-			"packages": "python3.12-venv",
+			"packages": "cmake, python3.12-venv",
 			"upgradePackages": true
 		},
 		"ghcr.io/rocker-org/devcontainer-features/pandoc:1": {},
