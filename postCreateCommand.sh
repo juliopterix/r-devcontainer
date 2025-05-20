@@ -1,1 +1,1 @@
-R -e 'renv::restore()'
+R --vanilla -e 'renv::restore()'

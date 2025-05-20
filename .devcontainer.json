@@ -14,10 +14,9 @@
 			"extensions": [
 				"streetsidesoftware.code-spell-checker",
 				"christian-kohler.path-intellisense",
-				"mhutchie.git-graph",
-				"tomoki1207.pdf"
+				"mhutchie.git-graph"
 			]
 		}
-	}
-    // "postCreateCommand": "./postCreateCommand.sh"
+	},
+    "postCreateCommand": "./postCreateCommand.sh"
 }
