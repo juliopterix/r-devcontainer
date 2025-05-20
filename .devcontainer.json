@@ -8,15 +8,13 @@
 		"ghcr.io/rocker-org/devcontainer-features/pandoc:1": {}
 	},
     "customizations": {
-		// Configure properties specific to VS Code.
+		// Configure properties specific to Positron.
 		"vscode": {
-			"settings": {},
+			// "settings": {},
 			"extensions": [
 				"streetsidesoftware.code-spell-checker",
 				"christian-kohler.path-intellisense",
-				"mhutchie.git-graph",
-				"ms-vscode.live-server",
-				"tomoki1207.pdf"
+				"mhutchie.git-graph"
 			]
 		}
 	}
