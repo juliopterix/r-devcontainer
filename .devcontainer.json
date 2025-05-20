@@ -17,6 +17,6 @@
 				"mhutchie.git-graph"
 			]
 		}
-	},
-    "postCreateCommand": "./postCreateCommand.sh"
+	}
+    // "postCreateCommand": "./postCreateCommand.sh"
 }
