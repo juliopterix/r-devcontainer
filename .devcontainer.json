@@ -19,6 +19,6 @@
 				"charliermarsh.ruff"
 			]
 		}
-	}
-    // "postCreateCommand": "./postCreateCommand.sh"
+	},
+    "postCreateCommand": "./postCreateCommand.sh"
 }
