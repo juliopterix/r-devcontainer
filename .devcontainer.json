@@ -9,13 +9,12 @@
 	},
     "customizations": {
 		// Configure properties specific to Positron.
-		"positron": {
-			"settings": {},
+		"vscode": {
+			// "settings": {},
 			"extensions": [
 				"streetsidesoftware.code-spell-checker",
 				"christian-kohler.path-intellisense",
 				"mhutchie.git-graph",
-				"ms-vscode.live-server",
 				"tomoki1207.pdf"
 			]
 		}
