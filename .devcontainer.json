@@ -9,16 +9,16 @@
 	},
     "customizations": {
 		// Configure properties specific to VS Code.
-		"vscode": {
-			"settings": {},
-			"extensions": [
-				"streetsidesoftware.code-spell-checker",
-				"christian-kohler.path-intellisense",
-				"mhutchie.git-graph",
-				"ms-vscode.live-server",
-				"tomoki1207.pdf"
-			]
-		}
+		// "vscode": {
+		// 	"settings": {},
+		// 	"extensions": [
+		// 		"streetsidesoftware.code-spell-checker",
+		// 		"christian-kohler.path-intellisense",
+		// 		"mhutchie.git-graph",
+		// 		"ms-vscode.live-server",
+		// 		"tomoki1207.pdf"
+		// 	]
+		// }
 	}
     // "postCreateCommand": "./postCreateCommand.sh"
 }
