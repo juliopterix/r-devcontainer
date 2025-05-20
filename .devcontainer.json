@@ -8,17 +8,17 @@
 		"ghcr.io/rocker-org/devcontainer-features/pandoc:1": {}
 	},
     "customizations": {
-		// Configure properties specific to VS Code.
-		// "vscode": {
-		// 	"settings": {},
-		// 	"extensions": [
-		// 		"streetsidesoftware.code-spell-checker",
-		// 		"christian-kohler.path-intellisense",
-		// 		"mhutchie.git-graph",
-		// 		"ms-vscode.live-server",
-		// 		"tomoki1207.pdf"
-		// 	]
-		// }
+		// Configure properties specific to Positron.
+		"positron": {
+			"settings": {},
+			"extensions": [
+				"streetsidesoftware.code-spell-checker",
+				"christian-kohler.path-intellisense",
+				"mhutchie.git-graph",
+				"ms-vscode.live-server",
+				"tomoki1207.pdf"
+			]
+		}
 	}
     // "postCreateCommand": "./postCreateCommand.sh"
 }
