@@ -7,13 +7,7 @@
 		},
 		"ghcr.io/rocker-org/devcontainer-features/pandoc:1": {},
         "ghcr.io/rocker-org/devcontainer-features/r-apt:0": {
-			"vscodeRSupport": "lsp",
-			"installDevTools": true,
-            "installREnv": true,
-			"installRMarkdown": true,
-            "installRadian": true,
-            "installVscDebugger": true,
-			"installBspm": true
+            "installRadian": true
         }
 	},
 	"overrideFeatureInstallOrder": [
