@@ -5,10 +5,7 @@
 			"packages": "cmake, python3.12-venv",
 			"upgradePackages": true
 		},
-		"ghcr.io/rocker-org/devcontainer-features/pandoc:1": {},
-        "ghcr.io/rocker-org/devcontainer-features/r-apt:0": {
-            "installRadian": true
-        }
+		"ghcr.io/rocker-org/devcontainer-features/pandoc:1": {}
 	},
     "customizations": {
 		// Configure properties specific to VS Code.
