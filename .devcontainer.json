@@ -10,9 +10,6 @@
             "installRadian": true
         }
 	},
-	"overrideFeatureInstallOrder": [
-		"ghcr.io/rocker-org/devcontainer-features/r-apt"
-	],
     "customizations": {
 		// Configure properties specific to VS Code.
 		"vscode": {
