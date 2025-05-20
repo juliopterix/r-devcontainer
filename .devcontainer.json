@@ -6,9 +6,9 @@
 			"upgradePackages": true
 		},
 		"ghcr.io/rocker-org/devcontainer-features/pandoc:1": {},
-        "ghcr.io/rocker-org/devcontainer-features/r-apt:0": {
-            "installRadian": true
-        }
+        // "ghcr.io/rocker-org/devcontainer-features/r-apt:0": {
+        //     "installRadian": true
+        // }
 	},
     "customizations": {
 		// Configure properties specific to VS Code.
