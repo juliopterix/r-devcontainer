@@ -16,7 +16,10 @@
 			"settings": {},
 			"extensions": [
 				"streetsidesoftware.code-spell-checker",
-				"charliermarsh.ruff"
+				"christian-kohler.path-intellisense",
+				"mhutchie.git-graph",
+				"ms-vscode.live-server",
+				"tomoki1207.pdf"
 			]
 		}
 	}
