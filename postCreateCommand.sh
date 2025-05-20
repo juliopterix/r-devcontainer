@@ -1,2 +1,2 @@
-R --vanilla -e 'options(renv.config.pak.enabled = TRUE); options(renv.config.ppm.enabled = FALSE); options(repos = c(CRAN = "https://p3m.dev/cran/__linux__/noble/latest")); pak::pkg_install("renv"))'
+R --vanilla -e 'options(renv.config.pak.enabled = TRUE); options(renv.config.ppm.enabled = FALSE); options(repos = c(CRAN = "https://p3m.dev/cran/__linux__/noble/latest")); pak::pkg_install("renv")'
 R --vanilla -e 'options(renv.config.pak.enabled = TRUE); options(renv.config.ppm.enabled = FALSE); options(repos = c(CRAN = "https://p3m.dev/cran/__linux__/noble/latest")); renv::restore(prompt=FALSE)'
