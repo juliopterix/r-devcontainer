@@ -36,6 +36,6 @@
 				"posit.air-vscode"
 			]
 		}
-	}
-    // "postCreateCommand": "./postCreateCommand.sh"
+	},
+    "postCreateCommand": "python3 -m venv /home/rstudio/dc-env"
 }
