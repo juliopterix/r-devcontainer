@@ -39,6 +39,6 @@
 				"posit.air-vscode"
 			]
 		}
-	}
-    // "postCreateCommand": "./postCreateCommand.sh"
+	},
+    "postCreateCommand": "./postCreateCommand.sh"
 }
