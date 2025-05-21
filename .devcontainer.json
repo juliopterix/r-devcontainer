@@ -18,22 +18,25 @@
 		"vscode": {
 			"settings": {
 				"[r]": {
-					"editor.wordSeparators": "`~!@#%$^\u0026*()-=+[{]}\\|;:'\",\u003c\u003e/?"
+					"editor.wordSeparators": "`~!@#%$^\u0026*()-=+[{]}\\|;:'\",\u003c\u003e/?",
+					"editor.formatOnSave": true
 				},
+				"positron.reticulate.enabled": true,
 				"r.bracketedPaste": true,
-				"r.plot.useHttpgd": true,
-				"r.rterm.linux": "/usr/local/bin/radian",
 				"r.debugger.timeouts.startup": 20000,
+				"r.lsp.debug": true,
+				"r.plot.useHttpgd": true,
+				"r.rpath.linux": "/usr/local/bin/R",
+				"r.rterm.linux": "/usr/local/bin/radian",
 				"r.useRenvLibPath": true,
 				"r.workspaceViewer.showObjectSize": true,
-				"positron.reticulate.enabled": true,
-				"r.lsp.debug": true,
-				"r.rpath.linux": "/usr/local/bin/R"
+				"quarto.path": "/opt/quarto/bin/quarto"
 			},
 			"extensions": [
 				"streetsidesoftware.code-spell-checker",
 				"christian-kohler.path-intellisense",
-				"mhutchie.git-graph"
+				"mhutchie.git-graph",
+				"posit.air-vscode"
 			]
 		}
 	}
