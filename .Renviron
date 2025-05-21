@@ -1,1 +1,2 @@
 RENV_CONFIG_PAK_ENABLED=true
+RENV_PYTHON=/home/rstudio/dc-env/bin/python
