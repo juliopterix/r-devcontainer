@@ -10,7 +10,20 @@
     "customizations": {
 		// Configure properties specific to Positron.
 		"vscode": {
-			// "settings": {},
+			"settings": {
+				"[r]": {
+					"editor.wordSeparators": "`~!@#%$^\u0026*()-=+[{]}\\|;:'\",\u003c\u003e/?"
+				},
+				"r.bracketedPaste": true,
+				"r.plot.useHttpgd": true,
+				"r.rterm.linux": "/usr/local/bin/radian",
+				"r.debugger.timeouts.startup": 20000,
+				"r.useRenvLibPath": true,
+				"r.workspaceViewer.showObjectSize": true,
+				"positron.reticulate.enabled": true,
+				"r.lsp.debug": true,
+				"r.rpath.linux": "/usr/local/bin/R"
+			},
 			"extensions": [
 				"streetsidesoftware.code-spell-checker",
 				"christian-kohler.path-intellisense",
