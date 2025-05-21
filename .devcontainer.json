@@ -2,7 +2,7 @@
     "image":"ghcr.io/rocker-org/devcontainer/r-ver:4.5",
     "features": {
 		"ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
-			"packages": "cmake, python3.12-venv, libgtk-3-dev,libnotify-dev,libnss3,libxss1,liboss4-salsa-asound2",
+			"packages": "cmake, python3.12-venv, libgtk-3-dev,libnotify-dev,libnss3,libxss1,xdg-utils,libasound2t64",
 			"upgradePackages": true
 		},
 		"ghcr.io/rocker-org/devcontainer-features/pandoc:1": {},
